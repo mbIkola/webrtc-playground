@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <title>WebRTC Testing</title>
+
+        <!--[if lt IE 9]>
+            <script src="assets/js/vendor/htmlshiv.min.js"></script>
+        <![endif]-->
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+        <script type="text/javascript">
+            var html = document.getElementsByTagName("html")[0];
+            if(html.className == "no-js") {
+                html.className = html.className.replace("no-js", "js");
+            }
+            var siteAssetsPath = '/assets';
+        </script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/screen.css" media="screen" type="text/css"/>
+
+    </head>
+    <body>
+
+        <div class="container index icon-camera">
+            <div id="localFeedWrapper">
+                <video src="" id="localFeed" autoplay="true"></video>
+            </div>
+            <video src="" id="bgFeed" autoplay="true" class="blur"></video>
+
+            <div class="controlls">
+
+                <div class="flexslider left">
+                    <ul class="slides">
+                        <li><a href="#">none</a></li>
+                        <li><a href="#">invert</a></li>
+                        <li><a href="#">grayscale</a></li>
+                        <li><a href="#">sepia</a></li>
+                        <li><a href="#">saturate</a></li>
+                        <li><a href="#">blur</a></li>
+                    </ul>
+                </div>
+
+                <a id="record" href="#" title="Record video" class="icon-camera"></a>
+
+            </div>
+
+
+
+        </div>
+        <script type="text/javascript" src="assets/js/vendor/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/adaptor.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/flexslider.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/pModel.js"></script>
+
+        <script type="text/javascript" src="assets/js/script.js"></script>
+
+    </body>
+</html>
+
+

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <title>WebRTC Face replace</title>
+
+        <!--[if lt IE 9]>
+            <script src="assets/js/vendor/htmlshiv.min.js"></script>
+        <![endif]-->
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+        <script type="text/javascript">
+            var html = document.getElementsByTagName("html")[0];
+            if(html.className == "no-js") {
+                html.className = html.className.replace("no-js", "js");
+            }
+            var siteAssetsPath = '/assets';
+        </script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/screen.css" media="screen" type="text/css"/>
+
+    </head>
+    <body>
+
+        <div class="container index face swap icon-camera">
+
+
+
+            <div id="canvasWrapper">
+                <div id="inner">
+                    <video src="" id="localFeed" autoplay="true"></video>
+                    <canvas id="canvas" width="1024px" height="768px">Canvas support needed for this demo</canvas>
+                    <canvas id="debugCanvas" width="1024px" height="768px">Canvas support needed for this demo</canvas>
+                </div>
+            </div>
+
+
+            <div class="controlls">
+                <a id="record" href="#" title="Record video" class="icon-camera"></a>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="assets/js/vendor/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/adaptor.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/clmtracker.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/pModel.js"></script>
+        <script type="text/javascript" src="assets/js/app/sound-modifier.js"></script>
+        <script type="text/javascript" src="assets/js/app/optimus-head.js"></script>
+		<script type="text/javascript" src="assets/js/face-swap.js"></script>
+
+    </body>
+</html>
+
+
